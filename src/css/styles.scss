@@ -1,0 +1,17 @@
+@import './partials/mixins';
+@import './modules/whatsHappen';
+
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+.row:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+a {
+    text-decoration: none;
+    color: gray;
+}
